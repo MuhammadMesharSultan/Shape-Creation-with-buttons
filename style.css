@@ -1,0 +1,87 @@
+body{
+background-color: darkslateblue;
+}
+
+.parent {
+    text-align: center;
+}
+
+.box {
+    height: 276px;
+    width: 400px;
+    margin-left: 591px;
+    margin-top: 19px;
+    background-color: black;
+}
+
+button {
+    margin-top: 5px;
+    width: 130px;
+    height: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.brown {
+    height: 273px;
+    width: 402px;
+    margin-left: 587px;
+    margin-top: 22px;
+    background-color: brown;
+}
+
+.goldenrod {
+    height: 269px;
+    width: 305px;
+    margin-left: 643px;
+    margin-top: -7px;
+    background-color: goldenrod;
+    border-radius: 300px;
+}
+
+.green {
+    height: 254px;
+    width: 560px;
+    margin-left: 509px;
+    margin-top: -5px;
+    background-color: green;
+}
+
+.head {
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+   
+        .box {
+            height: 300px;
+            width: 400px;
+            margin-left: 0px;
+            margin-top: 50px;
+            background-color: black;
+        }
+        .red {
+            height: 300px;
+            width: 400px;
+            margin-left: 0px;
+            margin-top: 50px;
+            background-color: yellow;
+        }
+        .green {
+            height: 300px;
+            width: 300px;
+            margin-left: 50px;
+            margin-top: 50px;
+            background-color: green;
+            border-radius: 300px;
+        }
+        .blue {
+            height: 200px;
+            width: 400px;
+            margin-left: 0px;
+            margin-top: 130px;
+            margin-bottom: 20px;
+            background-color: blue;
+        }
+    
+  }
